@@ -1,0 +1,242 @@
+body{
+  width:100%;
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+.header{
+  position:absolute;
+  display:block;
+  top : 0;
+  width:100%;
+  height:6vh;
+  background-color : white;
+  color: black;
+  font-size:3vh;
+  font-family:sans-serif;
+}
+
+.audio{
+  position:absolute;
+  top:0;
+  right:0;
+  display:flex;
+}
+
+audio{
+  padding:1.5vh;
+  height:3vh;
+}
+
+
+
+audio:focus{outline:0;}
+
+.imgbox{
+    position: relative;
+    display: inline-block;
+    top : 6vh;
+    margin : 0;
+    width: 39%;
+    height: 94vh;
+    overflow: hidden;
+    border: black solid 1px;
+    box-sizing: border-box;
+  }
+
+  .chatbox{
+    position: relative;
+    display: inline-block;
+    top : 6vh;
+    width: 22%;
+    height: 94vh;
+    border: black solid 1px;
+    box-sizing: border-box;
+  }
+
+  .streambox{
+    position: relative;
+    display: inline-block;
+    top : 6vh;
+    margin : 0;
+    width: 39%;
+    height: 94vh;
+    overflow: hidden;
+    border: black solid 1px;
+    box-sizing: border-box;
+  }
+
+#draggable1 {
+  position: absolute;
+  bottom: 16%;
+  left: 70%;
+  width: 31%;
+  height: 31%;
+  z-index:1;
+}
+
+
+#draggable2 {
+  position: absolute;
+  top: 62%;
+  left: 0%;
+  width: 26%;
+  height: 26%;
+  z-index:1;
+}
+
+#draggable11 {
+  position: absolute;
+  top: 62%;
+  left: 0%;
+  width: 26%;
+  height: 7%;
+  z-index:1;
+}
+
+
+#draggable12 {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 26%;
+  height: 10%;
+  z-index:1;
+}
+
+
+#draggable3 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 38%;
+  height: 10%;
+  z-index:1;
+}
+
+#draggable4 {
+  position: absolute;
+  bottom: 10%;
+  left: 23%;
+  width: 17%;
+  height: 17%;
+  z-index:1;
+}
+
+#draggable5 {
+  position: absolute;
+  bottom: 5%;
+  left: 40%;
+  width: 30%;
+  height: 30%;
+  z-index:1;
+}
+
+#draggable6 {
+  position: absolute;
+  top: 37%;
+  right: 0%;
+  width: 20%;
+  height: 20%;
+  z-index:1;
+}
+
+#draggable7 {
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  width: 20%;
+  height: 10%;
+  z-index:1;
+}
+
+#draggable8 {
+  position: absolute;
+  top: 0%;
+  right: 38%;
+  width: 9%;
+  height: 9%;
+  z-index:1;
+}
+
+#draggable9 {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 24%;
+  height: 24%;
+  z-index:1;
+}
+
+#draggable10 {
+  position: absolute;
+  top: 44%;
+  left: 0%;
+  width: 20%;
+  height: 10%;
+  z-index:1;
+}
+
+#drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9, #drag10, #drag11, #drag12 {
+  width:100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto;
+  position: absolute;
+}
+
+#rotateable1, #rotateable2, #rotateable3, #rotateable4, #rotateable5, #rotateable6, #rotateable7, #rotateable8, #rotateable9, #rotateable10, #rotateable11, #rotateable12 {
+  width:100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto;
+  position: absolute;
+  //background: black;
+}
+
+#rotate1, #rotate5, #rotate6 {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: -38px;
+  top: 10px;
+  background: white;
+  border: black solid 1px;
+  box-sizing: border-box;
+  cursor:grab;
+  z-index: -1;
+}
+
+#rotate3, #rotate7, #rotate8{
+  position: absolute;
+  width: 20px;
+  height: 50px;
+  left: 0px;
+  top: 80px;
+  background: white;
+  border: black solid 1px;
+  box-sizing: border-box;
+  cursor:grab;
+  z-index: -1;
+}
+
+#rotate2, #rotate4, #rotate9, #rotate10, #rotate11, #rotate12{
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  right: -38px;
+  top: 10px;
+  background: white;
+  border: black solid 1px;
+  box-sizing: border-box;
+  cursor:grab;
+  z-index: -1;
+
+}
