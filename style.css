@@ -209,8 +209,8 @@ audio:focus{outline:0;}
   position: absolute;
   top: 70%;
   left: 7%;
-  width: 9%;
-  height: 5%;
+  width: 5%;
+  height: 2%;
   z-index:1;
 }
 
@@ -319,7 +319,7 @@ text-align: right;
 }
 
 
-#rotate2, #rotate4, #rotate9, #rotate10, #rotate11, #rotate12,#rotate13, #rotate15, #rotate16, #rotate18, #rotate20{
+#rotate2, #rotate4, #rotate9, #rotate10, #rotate13, #rotate15, #rotate16, #rotate18, #rotate20{
   position: absolute;
   width: 70px;
   height: 20px;
@@ -334,3 +334,19 @@ text-align: right;
   text-align: right;
 
 }
+
+ #rotate11, #rotate12 {
+   position: absolute;
+   width: 70px;
+   height: 20px;
+   right: -68px;
+   top: 10px;
+   background: white;
+   border: black solid 1px;
+   box-sizing: border-box;
+   cursor:grab;
+   z-index: -1;
+   padding:2px;
+   text-align: right;
+
+ }
