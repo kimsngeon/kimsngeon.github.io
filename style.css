@@ -3,6 +3,8 @@ body{
   margin:0;
   padding:0;
   display:flex;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1;
 }
 
 .header{
@@ -14,7 +16,10 @@ body{
   background-color : white;
   color: black;
   font-size:3vh;
-  font-family:sans-serif;
+}
+
+.mobile{
+  display: none;
 }
 
 .audio{
@@ -65,6 +70,10 @@ audio:focus{outline:0;}
     overflow: hidden;
     border: black solid 1px;
     box-sizing: border-box;
+  }
+
+  .door{
+    position:absolute;display:block;top:0;left:17%;width:38%;height:2.5%;border:solid black 1px;box-sizing:border-box;padding:2px;
   }
 
 #draggable1 {
@@ -350,3 +359,33 @@ text-align: right;
    text-align: right;
 
  }
+
+
+ @media only screen and (max-width: 1024px) {
+
+  .mobile{
+    display: inline;
+  }
+
+  .audio, .chatbox, .streambox{
+    display: none;
+  }
+
+  .imgbox{
+    width: 100%;
+  }
+
+  .header{
+    font-size: 2.5vh;
+    line-height: 3vh;
+  }
+}
+
+
+
+@media only screen and (max-height: 900px) {
+
+  .door{
+    height: 3.5%;
+  }
+}
